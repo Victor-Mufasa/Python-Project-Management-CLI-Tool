@@ -28,3 +28,7 @@ def load_data():
             return users
     except FileNotFoundError:
         return []
+    except json.decoder.JSONDecodeError:
+        # If the file is empty or corrupted, start fresh
+        print("Warning: Data file was empty or corrupted. Starting fresh.")
+        return []
