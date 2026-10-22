@@ -8,6 +8,7 @@
 - [Setup Instructions](#setup-instructions)
 - [Command Line Commands](#cli-commands)
 - [Testing](#testing)
+- [Screenshot](#screenshot)
 - [Contact](#contact)
 - [License](#license)
 
@@ -92,6 +93,10 @@ Unit tests are written using pytest:
 ```bash
 python -m pytest tests/
 ```
+
+## Screenshot
+
+![Screenshot](img/Screenshot.png)
 
 ## Contact
 
