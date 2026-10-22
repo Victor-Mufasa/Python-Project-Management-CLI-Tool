@@ -4,13 +4,13 @@ from models.project import Project
 from models.task import Task
 
 def test_user_creation():
-    user = User("Alex", "alex@example.com")
-    assert user.name == "Alex"
-    assert user.email == "alex@example.com"
+    user = User("Victor", "victor@email.co.ke")
+    assert user.name == "Victor"
+    assert user.email == "victor@email.co.ke"
     assert len(user.projects) == 0
 
 def test_add_project_to_user():
-    user = User("Alex")
+    user = User("Victor")
     project = Project("CLI Tool")
     user.add_project(project)
     assert len(user.projects) == 1
