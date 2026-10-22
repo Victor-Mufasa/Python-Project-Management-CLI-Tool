@@ -77,10 +77,10 @@ options:
 ## Run the CLI (Example):
 
 ```bash
-python main.py add-user --name "Alex" --email "alex@test.com"
-python main.py add-project --user "Alex" --title "CLI Tool" --due-date "2026-12-31"
+python main.py add-user --name "Victor" --email "victor@email.com"
+python main.py add-project --user "Victor" --title "CLI Tool" --due-date "2026-12-31"
 python main.py add-task --project "CLI Tool" --title "Implement add-task"
-python main.py list-projects --user "Alex"
+python main.py list-projects --user "Victor"
 python main.py complete-task --project "CLI Tool" --task "Implement add-task"
 ```
 
