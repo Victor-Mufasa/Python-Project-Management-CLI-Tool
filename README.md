@@ -7,6 +7,7 @@
 - [Architecture & OOP design](#architecture--oop-design)
 - [Setup Instructions](#setup-instructions)
 - [Command Line Commands](#cli-commands)
+- [Testing](#testing)
 - [Contact](#contact)
 - [License](#license)
 
@@ -81,6 +82,15 @@ python main.py add-project --user "Alex" --title "CLI Tool" --due-date "2026-12-
 python main.py add-task --project "CLI Tool" --title "Implement add-task"
 python main.py list-projects --user "Alex"
 python main.py complete-task --project "CLI Tool" --task "Implement add-task"
+```
+
+## Testing
+
+Testing
+Unit tests are written using pytest:
+
+```bash
+python -m pytest tests/
 ```
 
 ## Contact
